@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Photo to PNG Converter Online | Convert JPG, WEBP to PNG</title>
+    <meta name="description" content="Convert any image (JPG, WEBP, GIF) to PNG format instantly. 100% free, no registration required. Preserves transparency and high quality.">
+    <meta name="keywords" content="photo to png, jpg to png converter, free image converter, transparent png converter, webp to png">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="PNG Converter">
+                <span>PNG<span>Converter</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#tools">More Tools</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Convert <span>Photos to PNG</span> for Free</h1>
+                <p class="subtitle">Instantly convert JPG, WEBP, GIF, and other formats to high-quality PNG with transparency support.</p>
+                
+                <!-- File Upload Box -->
+                <div class="upload-box" id="dropArea">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Drag & Drop Your Image Here</h3>
+                    <p>or</p>
+                    <button class="btn btn-primary" id="fileInputBtn">
+                        <i class="fas fa-folder-open"></i> Browse Files
+                    </button>
+                    <input type="file" id="fileInput" accept="image/*" hidden>
+                    <p class="formats">Supports: JPG, JPEG, WEBP, GIF, BMP, SVG</p>
+                </div>
+                
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="fas fa-lock"></i> Secure & Private
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-bolt"></i> Instant Conversion
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-infinity"></i> No Limits
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/conversion-demo.png" alt="JPG to PNG conversion example">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Use Our <span>PNG Converter?</span></h2>
+            <p class="section-subtitle">The best free online tool for converting images to PNG format</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>100% Free</h3>
+                    <p>No hidden charges, watermarks, or registration required.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Super Fast</h3>
+                    <p>Convert images in seconds with our optimized engine.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-file-image"></i>
+                    </div>
+                    <h3>High Quality</h3>
+                    <p>Preserves image resolution and transparency.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure</h3>
+                    <p>Files are processed in your browser and never uploaded.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Works on Any Device</h3>
+                    <p>Use on PC, Mac, Android, or iPhone.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-file-download"></i>
+                    </div>
+                    <h3>Batch Conversion</h3>
+                    <p>Convert multiple images at once (coming soon).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How to Convert <span>to PNG</span></h2>
+            <p class="section-subtitle">Just three simple steps to get your PNG file</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Upload Your Image</h3>
+                        <p>Drag & drop or select a JPG, WEBP, GIF, or other image file.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Automatic Conversion</h3>
+                        <p>Our tool instantly processes your image to PNG format.</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Download PNG</h3>
+                        <p>Save your new PNG file with one click.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supported Formats -->
+    <section class="formats">
+        <div class="container">
+            <h2>Supported <span>Input Formats</span></h2>
+            <p class="section-subtitle">Convert from these popular image formats to PNG</p>
+            
+            <div class="format-grid">
+                <div class="format-card">
+                    <img src="images/jpg-icon.png" alt="JPG">
+                    <h3>JPG / JPEG</h3>
+                </div>
+                <div class="format-card">
+                    <img src="images/webp-icon.png" alt="WEBP">
+                    <h3>WEBP</h3>
+                </div>
+                <div class="format-card">
+                    <img src="images/gif-icon.png" alt="GIF">
+                    <h3>GIF</h3>
+                </div>
+                <div class="format-card">
+                    <img src="images/bmp-icon.png" alt="BMP">
+                    <h3>BMP</h3>
+                </div>
+                <div class="format-card">
+                    <img src="images/svg-icon.png" alt="SVG">
+                    <h3>SVG</h3>
+                </div>
+                <div class="format-card">
+                    <img src="images/tiff-icon.png" alt="TIFF">
+                    <h3>TIFF</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked <span>Questions</span></h2>
+            <p class="section-subtitle">Find quick answers to common questions</p>
+            
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is this converter really free?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Our Photo to PNG converter is completely free with no watermarks, registration, or hidden fees.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are my images stored on your servers?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No. All conversion happens in your browser. We never upload your images to any server.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Does this support transparent PNGs?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! If your original image has transparency (like some GIFs or PNGs), it will be preserved.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's the maximum file size?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can convert images up to 25MB. For larger files, try our desktop version (coming soon).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2>More <span>Free Image Tools</span></h2>
+            <p class="section-subtitle">Explore our collection of useful online image converters</p>
+            
+            <div class="tools-grid">
+                <a href="#" class="tool-card">
+                    <i class="fas fa-file-image"></i>
+                    <h3>PNG to JPG</h3>
+                    <p>Convert PNG images to JPG format</p>
+                </a>
+                <a href="#" class="tool-card">
+                    <i class="fas fa-file-image"></i>
+                    <h3>WEBP to JPG</h3>
+                    <p>Convert WEBP files to JPG</p>
+                </a>
+                <a href="#" class="tool-card">
+                    <i class="fas fa-file-image"></i>
+                    <h3>Image Compressor</h3>
+                    <p>Reduce image file size</p>
+                </a>
+                <a href="#" class="tool-card">
+                    <i class="fas fa-file-image"></i>
+                    <h3>Background Remover</h3>
+                    <p>Make transparent PNGs</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <img src="images/logo-white.png" alt="PNG Converter">
+                    <p>The fastest free online Photo to PNG converter. No registration required.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-reddit"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#tools">More Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">DMCA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 PNG Converter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- Conversion Script -->
+    <script>
+        // File Upload Handling
+        const dropArea = document.getElementById('dropArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileInputBtn = document.getElementById('fileInputBtn');
+
+        // Prevent default drag behaviors
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        // Highlight drop area when item is dragged over it
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropArea.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropArea.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight() {
+            dropArea.classList.add('highlight');
+        }
+
+        function unhighlight() {
+            dropArea.classList.remove('highlight');
+        }
+
+        // Handle dropped files
+        dropArea.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const files = dt.files;
+            handleFiles(files);
+        }
+
+        // Handle file selection via button
+        fileInputBtn.addEventListener('click', () => {
+            fileInput.click();
+        });
+
+        fileInput.addEventListener('change', function() {
+            handleFiles(this.files);
+        });
+
+        // Process files
+        function handleFiles(files) {
+            if (files.length) {
+                const file = files[0];
+                if (file.type.startsWith('image/')) {
+                    // Here you would add the actual conversion logic
+                    alert(`File "${file.name}" selected. Conversion would happen here.`);
+                    // In a real app, you would:
+                    // 1. Read the file using FileReader
+                    // 2. Convert to PNG using canvas or a library
+                    // 3. Provide download link
+                } else {
+                    alert('Please select an image file (JPG, PNG, WEBP, etc.)');
+                }
+            }
+        }
+    </script>
+</body>
+  </html>
